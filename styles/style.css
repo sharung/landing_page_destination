@@ -1,0 +1,93 @@
+#hero {
+    height: 800px;
+    background-image: url("/landingpage-fix/image/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-content {
+    width: 500px;
+    text-align: center;
+    background-color: #82e0fd4f;
+    box-shadow: 2px 4px 15px rgb(164, 205, 247);
+    border-radius: 5px;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+}
+
+.hero-content h1 {
+    color: white;
+    margin: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: #82e0fd4f;
+}
+
+.hero-content p {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.hero-content a {
+    text-decoration: none;
+    color: white;
+    background-color: #66d6f8c0;
+    padding: 10px;
+    font-weight: 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+#highligh {
+    background: linear-gradient(0deg, #a0cbd8ee, #48cef7f1);
+    padding: 10px;
+}
+
+/* // */
+#highligh h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+#place {
+    display: flex;
+    list-style: none;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.place-content p {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.place-content strong {
+    color: rgb(2, 88, 145);
+}
+
+.place-content {
+    margin: 40px;
+}
+
+.place-content img {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+    object-fit: cover;
+}
+
+.promotion {
+    display: flex;
+    justify-content: center;
+}
